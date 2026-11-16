@@ -1,0 +1,21 @@
+# Client confidential source documents: never commit
+/Brand_Book/
+/pricing_model/
+/Proposed_Plan/
+
+# Working notes, text and page images extracted from the confidential documents above
+/cook/
+
+# Local tooling and agent configuration
+/.claude/
+/.agents/
+/skills-lock.json
+
+# Dependencies, build output, secrets, OS files
+node_modules/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
